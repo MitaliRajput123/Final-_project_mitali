@@ -1,0 +1,33 @@
+
+*{ margin: 0; padding: 1; font-family:'Mulish',sans-serif; box-sizing: border-box; }
+
+    .divider-text  {
+         position: relative;
+         text-align: center;
+         margin-top: 15px;
+         margin-bottom: 10px;
+    }
+    .divider-text span {
+        padding: 8px;
+        font-size: 12px; 
+        position: relative;
+        z-index: 2;
+    }
+    .divider-text::after { 
+        content: ""; 
+        position: absolute; 
+        width: 100%; 
+        border-bottom: 1px solid #000; 
+        top: 55%; 
+        left: 0;
+        z-index: 1;
+    }
+    .btn-facebook {
+        background-color: #1436be! important ;
+        color: #fff! important;
+    }
+    .btn-gmail {
+        background-color: #10a792! important;
+        color: #fff! important;
+    }
+    
